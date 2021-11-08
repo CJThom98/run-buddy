@@ -12,3 +12,5 @@ https://cjthom98.github.io/run-buddy/
 
 ## Contribution
 Made by Cory Thompson
+
+### ©️2019 Run Buddy, Inc 
