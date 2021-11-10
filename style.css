@@ -48,13 +48,14 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* Footer Styles Start */
 footer {
     background: #fce138;
-    width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 footer h2 {
@@ -79,10 +80,8 @@ section {
 /* Hero Style Start */
 .hero {
     background-image: url(hero-bg.jpg);
-    height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -104,17 +103,11 @@ section {
 }
 
 .hero-form {
+    border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 40%;
-    margin: 3.5%;
     color: #024e76;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
+    width: 40%;
 }
 
 .hero-form h3 {
