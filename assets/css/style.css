@@ -1,4 +1,3 @@
-/*Initial CSS*/
 * {
     margin: 0;
     padding: 0;
@@ -64,4 +63,8 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+section {
+    padding: 60px;
 }
