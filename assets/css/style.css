@@ -37,11 +37,11 @@
   }
 
   header nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
   
   header nav ul li a {
@@ -156,6 +156,9 @@
     font-size: 55px;
     border-bottom: 3px solid;
     color: #024e76;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
   }
   
   .primary-border {
@@ -234,17 +237,6 @@
   /* WHAT YOU DO STYLES END */
   
   /* MEET THE TRAINERS START */
-  /* .trainers {
-    
-  } */
-  
-  .trainer {
-    margin: 20px;
-    background: #024e76;
-    color: #fce138;
-    flex: 1;
-  }
-
   .trainers {
     width: 100%;
     margin: 0 auto;
@@ -252,7 +244,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  
+
+  .trainer {
+    margin: 20px;
+    background: #024e76;
+    color: #fce138;
+    flex: 1;
+  }
+
   .trainer img {
     width: 100%;
   }
@@ -290,6 +289,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
   }
   
   .contact-info iframe {
